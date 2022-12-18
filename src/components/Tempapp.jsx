@@ -16,9 +16,7 @@ const Tempapp = () => {
         };
         fetchAPI();
     }, [search]);
-
-// window.location.href;    tells the url
-
+    
     return (
         <>
             <div className="box">
@@ -29,7 +27,6 @@ const Tempapp = () => {
                         }} />
                 </div>
             
-
             { !city ? (
                 <p className='errorMsg'>No Data Found</p>
             ) : ( 
@@ -57,8 +54,7 @@ const Tempapp = () => {
                 </div>
 
             )}
-
-                
+            
             </div>
         </>
     )
