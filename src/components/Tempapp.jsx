@@ -17,7 +17,7 @@ const Tempapp = () => {
         fetchAPI();
     }, [search]);
 
-
+// window.location.href;    tells the url
 
     return (
         <>
